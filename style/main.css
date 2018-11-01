@@ -1,0 +1,148 @@
+body{
+    background: black;
+    width:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    color: #ffffff;
+}
+
+section{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 60%;
+
+}
+
+article{
+    position: relative;
+    display: inline-block;
+    width: 65%;
+}
+
+img{
+    position: relative;
+    width:100%;
+    height: auto;
+    display:inline-block;
+}
+
+.pic{
+    width: 25%;
+    z-index: 1;
+    top: -80px;
+}
+
+.bigPic{
+    position: relative;
+    display: inline-block;
+    top: -1200px;
+}
+
+caption{
+    color: gray;
+}
+
+.mainText{
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: 1; */
+    padding: 10% 30%;
+    font-size: 42px;
+    min-width: 550px;;
+
+}
+
+.wrapper{
+position: relative;
+
+}
+
+.wrapperBox{
+    position: absolute;
+    display: inline-flex;
+}
+
+.falconHeavy article{
+    
+    position: relative;
+    width: 60%;
+    float: left;
+    padding: 3%;
+
+}
+
+aside {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    top: -400px;
+    left: 171px;
+}
+
+figure{
+    display: block;
+    margin:0;
+    position: absolute;
+}
+
+.plusIcon{
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    width: 15%;
+    display: inline-block;
+}
+
+.grayBox{
+position: relative;
+top: 160px;
+padding: 10px;
+}
+
+.milestones{
+    background-color: #ffffff;
+    position: relative;
+    top: 500px;
+    width: 120%;
+    height: 600px;
+}
+
+
+div.col1,
+div.col2
+
+{
+    width: 40%;
+    position: relative;
+    display: inline-block;
+    padding:0px 30px 0px 0px;
+
+}
+
+.col3{
+    width:100%;
+}
+
+p.Falcon
+{
+    width: 49%;
+    position: relative;
+    display: inline-block;
+}
+
+.smallBox{
+    background: rgba(68, 67, 67, 0.5);
+    padding:  10px 5px 10px 65px ;
+    display: block;
+    z-index: -1;
+}
+
+.infographic{
+    width: 200%;
+}
+
